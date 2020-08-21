@@ -1,0 +1,290 @@
+@media (min-width: 768px) {
+    .delight {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 767px) {
+    .delight {
+        font-size: 200%;
+    }
+
+    .h1 {
+        font-size: 200%
+    }
+
+    .in-mobile {
+        font-size: 100%;
+    }
+
+    .carousel-inner {
+        width: 100% !important;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        top: 85%;
+    }
+
+    .footer-content-in-mobile {
+        font-size: 70% !important;
+        margin: 10px auto !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-spacing {
+        width: 180px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-content-in-mobile {
+        margin: 0px auto 10px auto;
+    }
+
+    .img-spacing {
+        width: 150px;
+        height: 50px;
+        margin: 15px 10px;
+    }
+}
+
+nav {
+    border-bottom: 1px ridge;
+    background-color: white;
+}
+
+.nav-link {
+    color: black!important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.dropdown-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dropdown-item:hover {
+    color: dodgerblue;
+}
+
+.jumbotron {
+    background: none;
+    margin: 0px auto;
+    padding: 80px 30px;
+}
+
+.bg-color {
+    background-color: whitesmoke;
+}
+
+.rounded-border{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 3px;
+    background-color: rgba(57,115,230,.1);
+} 
+
+.btn {
+    font-family: monospace;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.freshworks-promise-body {
+    height: 300px;
+}
+
+.display{
+    color: whitesmoke;
+}
+
+.text-size {
+    font-size: 14px;
+}
+
+.outline {
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+.btn-outline {
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.btn-outline-success, .btn-outline-warning, .btn-outline-danger, .btn-outline-primary {
+    border: 1px solid black;
+    font-size: 16px;
+    color: black;
+}
+
+.btn-outline:hover {
+    color: white;
+    border: none;
+    background-color: dodgerblue;
+}
+
+.outline-purple:hover {
+    color: white;
+    border: none;
+    background-color: mediumvioletred;
+}
+
+.btn-outline-warning:hover {
+    color: white;
+}
+
+.inside-p {
+    font-size: 18px;
+}
+
+.inside-text {
+    color: #666;
+    font-size: 18px;
+    font-family: National-Book, Helvetica, sans-serif;
+}
+
+.card {
+    border-radius: 5px!important;
+}
+
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.readmore-link:hover {
+    text-decoration: none;
+}
+
+.inside-freshworks-card:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    cursor: pointer;
+    bottom: 2px;
+    box-shadow: 5px 5px whitesmoke;
+}
+
+.onehalf, .twohalf {
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+}
+
+.footer {
+    background-color: whitesmoke;
+}
+
+.footer-content {
+    font-size: 80%;
+}
+
+.footer-link {
+    color: black;
+}
+
+.footer-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.contactus a {
+    color: black;
+}
+
+.contactus a:hover {
+    text-decoration: none;
+}
+
+.content-size {
+    min-height: 500px;
+}
+
+.carousel-inner {
+    background-color: white;
+    color: black;
+    min-height: 400px;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.1);
+    padding: 50px 10px;
+}
+
+.carousel-item hr {
+    width: 100px;
+    border: 1px solid cadetblue;
+    border-width: 1px;
+    padding: 0px;
+}
+
+.feedback-customer .img{
+    border-radius: 40px;
+}
+
+.quote .fa {
+    color: royalblue;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.carousel-indicators li {
+    background-color: royalblue;
+    border-radius: 20px;
+    margin: 1px 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+.carousel-control-prev .fa, .carousel-control-next .fa {
+    color: royalblue;
+}
+
+.listsize {
+    font-size: 12px;
+    color: #666
+}
+
+.listsize:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.footer-toggler {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-toggler:hover {
+    color: black;
+    text-decoration: none;
+}
